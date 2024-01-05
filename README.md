@@ -82,7 +82,10 @@ The dataset does not contain the same number of labels for each class but the da
 
 Some Feature are highly correalted with the target variable as the lead time and the deposit type
 
-image.png image.png
+![image](https://github.com/cesar1884/cancel_hotel_prediction/assets/94693373/ed7df8b9-fc80-4a3b-b65a-b967a8d9f5f8)
+
+![image](https://github.com/cesar1884/cancel_hotel_prediction/assets/94693373/fb4d8ecb-0501-4209-82d9-1fed8016c2bd)
+
 
 Some feature as those relating to the date are not correlated and has not a lot of sense in our analysis. We removed them.
 
@@ -99,6 +102,8 @@ By looking at some we noticed some interesting comportments so we decided to cre
 - `IsChangeMade`: 1 if the booking was changed, 0 otherwise
 
 These feature are interestingly correlated with the target variable.
+
+![image](https://github.com/cesar1884/cancel_hotel_prediction/assets/94693373/e8efaec9-b5e5-42a5-9f08-3387ad3daac1)
 
 ## 4. Modeling
 
