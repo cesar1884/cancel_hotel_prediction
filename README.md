@@ -84,8 +84,6 @@ Some Feature are highly correalted with the target variable as the lead time and
 
 ![image](https://github.com/cesar1884/cancel_hotel_prediction/assets/94693373/ed7df8b9-fc80-4a3b-b65a-b967a8d9f5f8)
 
-![image](https://github.com/cesar1884/cancel_hotel_prediction/assets/94693373/fb4d8ecb-0501-4209-82d9-1fed8016c2bd)
-
 
 Some feature as those relating to the date are not correlated and has not a lot of sense in our analysis. We removed them.
 
