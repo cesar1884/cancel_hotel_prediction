@@ -109,7 +109,7 @@ We tested four different models: Logistic Regression, Random Forest, XGBoost and
 
 Random Forest gave us the best results:
 
-precision    recall  f1-score   support
+           precision    recall  f1-score   support
 
            0       0.90      0.93      0.91      7277
            1       0.88      0.83      0.85      4394
