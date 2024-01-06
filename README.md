@@ -115,8 +115,6 @@ Random Forest gave us the best results:
            1       0.88      0.83      0.85      4394
 
     accuracy                           0.89     11671
-   macro avg       0.89      0.88      0.88     11671
-weighted avg       0.89      0.89      0.89     11671
 
 The model has a good recall and a good precision. It is important to have a good recall because we do not want to predict a cancellation when there is not as we said.
 
