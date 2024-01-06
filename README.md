@@ -82,7 +82,7 @@ The dataset does not contain the same number of labels for each class but the da
 
 Some Feature are highly correalted with the target variable as the lead time and the deposit type
 
-image.png image.png
+image.png
 
 Some feature as those relating to the date are not correlated and has not a lot of sense in our analysis. We removed them.
 
