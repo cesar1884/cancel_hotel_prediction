@@ -1,4 +1,4 @@
-# Hotel Booking Cancellation Prediction
+# Hotel Booking Cancelation Prediction
 
 ## Problem Statement
 
