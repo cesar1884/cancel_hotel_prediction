@@ -82,7 +82,8 @@ The dataset does not contain the same number of labels for each class but the da
 
 Some Feature are highly correalted with the target variable as the lead time and the deposit type
 
-image.png
+![image](https://github.com/cesar1884/cancel_hotel_prediction/assets/94693373/ed7df8b9-fc80-4a3b-b65a-b967a8d9f5f8)
+
 
 Some feature as those relating to the date are not correlated and has not a lot of sense in our analysis. We removed them.
 
@@ -100,20 +101,20 @@ By looking at some we noticed some interesting comportments so we decided to cre
 
 These feature are interestingly correlated with the target variable.
 
+![image](https://github.com/cesar1884/cancel_hotel_prediction/assets/94693373/e8efaec9-b5e5-42a5-9f08-3387ad3daac1)
+
 ## 4. Modeling
 
 We tested four different models: Logistic Regression, Random Forest, XGBoost and Decision Tree. 
 
 Random Forest gave us the best results:
 
-precision    recall  f1-score   support
+           precision    recall  f1-score   support
 
            0       0.90      0.93      0.91      7277
            1       0.88      0.83      0.85      4394
 
     accuracy                           0.89     11671
-   macro avg       0.89      0.88      0.88     11671
-weighted avg       0.89      0.89      0.89     11671
 
 The model has a good recall and a good precision. It is important to have a good recall because we do not want to predict a cancellation when there is not as we said.
 
